@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="adBales.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="70" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="adBales.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="adBales" translation="-663.737 100 468.543" nodeId="41821">
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="41826">
+        <TransformGroup name="tipOcclusionUpdateAreaStart01" translation="-2.37175 0 -9.07971" nodeId="41827">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd01" translation="6.13685 0 16.5" nodeId="41828"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="sellingStation" nodeId="41829">
+        <TransformGroup name="unloadTriggerMarker" nodeId="41831"/>
+        <TransformGroup name="unloadTriggerAINode" nodeId="41832"/>
+        <Shape name="baleTrigger" translation="0.681389 2 0" shapeId="1" kinematic="true" compound="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x40040000" nodeId="41833" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="70"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="adWater.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="70" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="adWater.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="adWater" translation="-665.468 100 486.559" rotation="0 90 0" nodeId="41869">
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="41874">
+        <TransformGroup name="tipOcclusionUpdateAreaStart01" translation="-3 0 6.64657" nodeId="41875">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd01" translation="6.436 0 -13.7833" nodeId="41876"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="sellingStation" nodeId="41877">
+        <Shape name="unloadTrigger" translation="0 0.1 0" shapeId="1" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="41878" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="70"/>
+        <TransformGroup name="unloadTriggerMarker" nodeId="41879"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

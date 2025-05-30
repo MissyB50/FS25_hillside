@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="adFood.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="70" diffuseColor="0.501961 0.501961 0.501961 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="adFood.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="adFood" translation="-648.278 100 489.75" rotation="-1.16345e-16 90 5.52003e-10" nodeId="41887">
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="41892">
+        <TransformGroup name="tipOcclusionUpdateAreaStart01" translation="-4.29222 -6.31864e-27 7.44573" nodeId="41893">
+          <TransformGroup name="tipOcclusionUpdateAreaEnd01" translation="9.25139 -1.3667e-25 -14.8071" nodeId="41894"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="sellingStation" nodeId="41895">
+        <Shape name="unloadTrigger" translation="0 0.1 0" scale="1.64464 1 1.59669" shapeId="1" kinematic="true" compound="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x20000000" nodeId="41896" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="70"/>
+        <TransformGroup name="unloadTriggerMarker" nodeId="41897"/>
+        <TransformGroup name="unloadTriggerAINode" nodeId="41898"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeables version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/savegame_placeables.xsd">
+<!--BGA-->
+    <placeable filename="$mapdir$/map/placeables/bga/bga.xml" position="589.814 99.98 -576.357" rotation="180 0 180">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_bga.dds"/>
+    </placeable>
+    <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="624.918 100 -503.555" rotation="180 0 180"/>
+    <placeable filename="$data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.xml" position="590.416 100 -503.555" rotation="180 0 180"/>
+    <placeable filename="$data/placeables/rudolfHormann/garageSmall/garageSmall.xml" position="516 100 -534.661" rotation="0 90 0"/>
+    <placeable filename="$data/placeables/rudolfHormann/garageSmall/garageSmall.xml" position="516 100 -556.846" rotation="0 90 0"/>
+    <placeable filename="$data/placeables/easySheds/easyShed01/easyShed01.xml" position="514.445 100 -583.351" rotation="0 90 0"/>
+    <placeable filename="$mapdir$/map/placeables/manureHeapBGA/manureHeap.xml" position="561.494 100 -498.251" rotation="180 0 180"/>
+
+<!--vehicleShop-->
+    <placeable filename="$mapdir$/map/placeables/sellingStationVehicles/sellingStationVehicles.xml" uniqueId="SSV_" position="644.670 103.02 -208.428" rotation="0 90 0"/>
+
+
+
+
+
+
+<!--buyables-->
+<!--     <placeable filename="$mapdir$/map/placeables/.xml" position="" rotation=""/> --> <!--manure-->
+<!--     <placeable filename="$mapdir$/map/placeables/.xml" position="" rotation=""/>  --><!--slurry-->
+
+
+<!--     <placeable filename="$mapdir$/map/placeables/sellingStation/animalDealer.xml" position="-304.493 81.902 583.629" rotation="0 -47.6 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_ad.dds"/>
+    </placeable>
+
+
+
+
+    <placeable filename="$mapdir$/map/placeables/sellingStation/spinnery.xml" position="-189.2 81.922 936.503" rotation="0 0 0">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_spinnery.dds"/>
+    </placeable -->
+
+
+
+
+
+    <!-- main farm -->
+
+</placeables>
+
+
+<!--     <placeable filename="$mapdir$/map/placeables/.xml" position="" rotation=""/> -->
+
+<!-- 
+    <placeable filename="$mapdir$/map/placeables/sellingStation/" position="" rotation="">
+        <customImage filename="$mapdir$/map/placeables/store/mapIcon_.dds"/>
+    </placeable> -->

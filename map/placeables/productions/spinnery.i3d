@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="spinnery.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="68" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="spinnery.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="spinnery" translation="449 100 95" nodeId="41847">
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="41844">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-11.9494 0 -14.9483" nodeId="41845">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="22.7871 0 31.7248" nodeId="41846"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="productionPoint" nodeId="41830">
+        <Shape name="playerTrigger" translation="11.8332 1.33645 -2.88829" shapeId="1" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x100000" clipDistance="600" nodeId="41831" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="68">
+          <TransformGroup name="playerTriggerMarker" nodeId="41832"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="sellingStation" nodeId="41833">
+        <Shape name="unloadTrigger" translation="-9.5 0.25 -3.5" shapeId="2" static="true" trigger="true" collisionFilterGroup="0x40000000" collisionFilterMask="0x40000000" nodeId="41834" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="68">
+          <TransformGroup name="unloadTriggerMarker" translation="0.0145425 0 -0.187209" nodeId="41835"/>
+        </Shape>
+        <Shape name="baleTrigger" translation="-9.5 0 -3.5" shapeId="3" static="true" trigger="true" collisionFilterGroup="0x1000000" collisionFilterMask="0x1000000" nodeId="41836" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="68"/>
+        <TransformGroup name="unloadTriggerAINode" translation="-10.4655 0 -4.17069" rotation="-4.06071e-06 57.9194 -3.42092e-06" nodeId="41837"/>
+      </TransformGroup>
+      <TransformGroup name="palletSpawner" nodeId="41838">
+        <TransformGroup name="spawnSpace1start" translation="5.55744 0 -10.1559" nodeId="41839">
+          <TransformGroup name="spawnSpace1end" translation="-10.6478 0 -1.19279e-15" nodeId="41840"/>
+        </TransformGroup>
+        <TransformGroup name="spawnSpace1start" translation="5.55744 0 -11.3238" nodeId="42346">
+          <TransformGroup name="spawnSpace1end" translation="-10.6478 0 -1.19279e-15" nodeId="42347"/>
+        </TransformGroup>
+        <TransformGroup name="spawnSpace1start" translation="5.55744 0 -12.3288" nodeId="42348">
+          <TransformGroup name="spawnSpace1end" translation="-10.6478 0 -1.19279e-15" nodeId="42349"/>
+        </TransformGroup>
+        <TransformGroup name="spawnSpace1start" translation="5.55744 0 -13.8452" nodeId="42350">
+          <TransformGroup name="spawnSpace1end" translation="-10.6478 0 -1.19279e-15" nodeId="42351"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape name="infoTrigger" shapeId="4" static="true" trigger="true" collisionFilterGroup="0x20000000" collisionFilterMask="0x110000" nodeId="41843" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="68"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

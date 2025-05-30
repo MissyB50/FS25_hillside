@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="98">
+    <author>MissyB</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Hillside Farm</en>
+    </title>
+    <description>
+        <en><![CDATA[
+
+
+
+
+]]></en>
+        <de><![CDATA[
+
+
+
+
+
+
+]]></de>
+    </description>
+    <iconFilename>icon_hillside.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/mission00.lua" 
+		configFilename="map/xml/mapUS.xml" defaultVehiclesXMLFilename="map/xml/vehicles.xml" 
+		defaultHandToolsXMLFilename="map/xml/handTools.xml" 
+		defaultPlaceablesXMLFilename="map/xml/placeables.xml" 
+		defaultItemsXMLFilename="map/xml/items.xml">
+            <title>
+                <en>Hillside</en>
+            </title>
+            <description>
+                <en>This is the sample mod map US.</en>
+                <de>Dies ist die Beispiel Mod Map US.</de>
+            </description>
+            <iconFilename>map_preview.dds</iconFilename>
+        </map>
+    </maps>
+</modDesc>

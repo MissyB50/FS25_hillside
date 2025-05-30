@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="willow_type02var.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="12" filename="$data/shaders/treeBillboardShader.xml"/>
+    <File fileId="8" filename="$data/shaders/treeBranchShader.xml"/>
+    <File fileId="3" filename="$data/shaders/treeTrunkShader.xml"/>
+    <File fileId="1" filename="trunk_diffuse.png"/>
+    <File fileId="2" filename="trunk_normal.png"/>
+    <File fileId="5" filename="willowBranch_diffuse.png"/>
+    <File fileId="9" filename="willowBranch_mask.png"/>
+    <File fileId="6" filename="willowBranch_normal.png"/>
+    <File fileId="7" filename="willowBranch_specular.png"/>
+    <File fileId="10" filename="willow_type02LOD_diffuse.png"/>
+    <File fileId="13" filename="willow_type02LOD_mask.png"/>
+    <File fileId="11" filename="willow_type02LOD_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="trunk_mat" materialId="5" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="willow_type02LOD_mat" materialId="6" customShaderId="12" customShaderVariation="SEASONAL_BILLBOARD180">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Custommap name="mMaskMap" fileId="13"/>
+    </Material>
+    <Material name="willowBranch_mat" materialId="7" customShaderId="8" customShaderVariation="SEASONAL">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+      <Custommap name="mMaskMap" fileId="9"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="willow_type02var.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="willow_type02var" lodDistance="0 600" clipDistance="600" nodeId="12">
+      <Shape name="LOD0" shapeId="1" static="true" collisionFilterGroup="0x830" collisionFilterMask="0xfe3ffb83" angularDamping="0.15" rollingFriction="0.27" density="0.5" clipDistance="600" nodeId="13" castsShadows="true" receiveShadows="true" splitType="18" splitUvs="0 0 1 0.064 2.2" materialIds="5">
+        <Shape name="LOD0Attachments" shapeId="2" clipDistance="500" nodeId="14" castsShadows="true" receiveShadows="true" materialIds="7"/>
+      </Shape>
+      <Shape name="LOD1" shapeId="3" clipDistance="1500" nodeId="15" castsShadows="true" receiveShadows="true" materialIds="6"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
