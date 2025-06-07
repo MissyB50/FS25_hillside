@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="barrier.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="barrier_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="barrier_mat" materialId="5" specularColor="0.494118 1 0">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="gray_mat" materialId="6" diffuseColor="0.584314 0.584314 0.584314 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="barrier.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="barrier" shapeId="1" static="true" trigger="true" collisionFilterGroup="0xe00000" collisionFilterMask="0xe00000" clipDistance="144" nodeId="11" castsShadows="false" receiveShadows="false" nonRenderable="true" materialIds="6">
+      <Shape name="barrier" translation="-0.275018 8.28214e-10 0.263187" rotation="1.73781e-14 0 -1.72546e-07" shapeId="2" static="true" clipDistance="144" nodeId="12" castsShadows="true" receiveShadows="true" materialIds="5">
+        <Shape name="barrierBar" translation="-5.2 1 0" rotation="9.70705e-12 3.56222e-13 90" shapeId="3" kinematic="true" clipDistance="144" nodeId="13" castsShadows="true" receiveShadows="true" materialIds="5"/>
+      </Shape>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="11">
+      <Attribute name="onCreate" type="scriptCallback" value="Barrier.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

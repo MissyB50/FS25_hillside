@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="sluppyShop.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="12" filename="$data/shaders/glowShader.xml"/>
+    <File fileId="16" filename="waterSplashParticle.png"/>
+    <File fileId="1" filename="AFM_farmShop_Diffuse.dds"/>
+    <File fileId="2" filename="AFM_farmShop_Normal.dds"/>
+    <File fileId="3" filename="AFM_farmShop_Specular.dds"/>
+    <File fileId="10" filename="buildingsWindowsResidential_diffuse.png"/>
+    <File fileId="11" filename="buildingsWindowsResidential_specular.png"/>
+    <File fileId="5" filename="farmShop_mask.dds"/>
+    <File fileId="13" filename="warehouseWallLamp_diffuse.png"/>
+    <File fileId="14" filename="warehouseWallLamp_normal.png"/>
+    <File fileId="15" filename="warehouseWallLamp_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="buildingsWindowsResidential_mat" materialId="5" customShaderId="12">
+      <Texture fileId="10"/>
+      <Glossmap fileId="11"/>
+    </Material>
+    <Material name="farmShop_mat" materialId="68" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.44 0.2"/>
+      <CustomParameter name="dirtMossTint" value="0.15 0 0.8"/>
+    </Material>
+    <Material name="lambert1" materialId="7">
+      <Texture fileId="16"/>
+    </Material>
+    <Material name="warehouseWallLamp_mat" materialId="8" customShaderId="12">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sluppyShop.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="farmShop" nodeId="49">
+      <TransformGroup name="farmShop_vis" translation="4.62777 0 0" nodeId="21">
+        <Shape name="structure" shapeId="1" static="true" clipDistance="600" nodeId="22" castsShadows="true" receiveShadows="true" materialIds="68"/>
+        <TransformGroup name="illum" nodeId="23">
+          <Shape name="windows" translation="-5.32566 3.8888 4.241" rotation="-90 -0 0" shapeId="2" clipDistance="300" nodeId="24" castsShadows="true" receiveShadows="true" materialIds="5"/>
+          <TransformGroup name="realLights" nodeId="25">
+            <Light name="pointLight0" translation="-9.15531 1.61683 2.99096" clipDistance="75" nodeId="26" type="point" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="0.75" weatherRequiredMask="0x40"/>
+            <Light name="pointLight1" translation="-8.1138 1.61683 2.99096" clipDistance="75" nodeId="27" type="point" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="0.75" weatherRequiredMask="0x40"/>
+            <Light name="pointLight2" translation="4.15204 3.91574 4.96636" clipDistance="75" nodeId="28" type="point" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="1" weatherRequiredMask="0x40"/>
+            <Light name="pointLight3" translation="7.13965 3.9362 -2.10256" clipDistance="75" nodeId="29" type="point" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="0.8" weatherRequiredMask="0x40"/>
+            <Light name="pointLight4" translation="5.93275 3.9362 -4.5592" clipDistance="75" nodeId="30" type="point" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="0.8" weatherRequiredMask="0x40"/>
+            <Light name="pointLight5" translation="1.77331 3.9362 -4.52754" clipDistance="75" nodeId="31" type="point" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="0.85" weatherRequiredMask="0x40"/>
+            <Light name="pointLight6" translation="-7.17101 3.936 -1.798" clipDistance="75" nodeId="32" type="point" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="0.8" weatherRequiredMask="0x40"/>
+          </TransformGroup>
+          <Shape name="warehouseWallLamp" translation="-13.772 4.003 4.5636" rotation="-180 -90 -180" shapeId="3" clipDistance="55" nodeId="33" castsShadows="true" receiveShadows="true" materialIds="8">
+            <TransformGroup name="illum" nodeId="34" weatherPreventMask="0x0">
+              <Shape name="glass" translation="0.672956 -0.264237 -2.14577e-08" shapeId="4" clipDistance="55" nodeId="35" castsShadows="true" receiveShadows="true" materialIds="8"/>
+              <Light name="pointLight1" translation="0.5 -0.2 -3.4427e-08" rotation="-90 -0 0" clipDistance="75" nodeId="36" type="spot" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="15" coneAngle="80" dropOff="4" weatherRequiredMask="0x40"/>
+            </TransformGroup>
+            <Shape name="col" shapeId="5" visibility="false" nodeId="37" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+          </Shape>
+          <Shape name="warehouseWallLamp" translation="-3.398 3.32888 4.33533" rotation="-180 -90 -180" shapeId="6" clipDistance="55" nodeId="38" castsShadows="true" receiveShadows="true" materialIds="8">
+            <TransformGroup name="illum" nodeId="39" weatherPreventMask="0x0">
+              <Shape name="glass" translation="0.673 -0.264237 -2.14577e-08" shapeId="7" clipDistance="55" nodeId="40" castsShadows="true" receiveShadows="true" materialIds="8"/>
+              <Light name="pointLight1" translation="0.5 -0.2 -3.4427e-08" rotation="-90 -0 0" clipDistance="75" nodeId="41" type="spot" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="15" coneAngle="80" dropOff="4" weatherRequiredMask="0x40"/>
+            </TransformGroup>
+            <Shape name="col" shapeId="8" visibility="false" nodeId="42" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+          </Shape>
+          <Shape name="warehouseWallLamp" translation="-0.780571 4.594 -4.47137" rotation="-180 90 -180" shapeId="9" clipDistance="55" nodeId="43" castsShadows="true" receiveShadows="true" materialIds="8">
+            <TransformGroup name="illum" nodeId="44" weatherPreventMask="0x0">
+              <Shape name="glass" translation="0.672956 -0.264237 -2.14577e-08" shapeId="10" clipDistance="55" nodeId="45" castsShadows="true" receiveShadows="true" materialIds="8"/>
+              <Light name="pointLight1" translation="0.5 -0.2 -3.4427e-08" rotation="-90 -0 0" clipDistance="75" nodeId="46" type="spot" color="0.201 0.168 0.08" emitDiffuse="true" emitSpecular="true" range="15" coneAngle="125" dropOff="4" weatherRequiredMask="0x40"/>
+            </TransformGroup>
+            <Shape name="col" shapeId="11" visibility="false" nodeId="47" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="7"/>
+          </Shape>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

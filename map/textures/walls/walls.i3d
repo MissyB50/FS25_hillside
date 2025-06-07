@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="walls.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/placeableShader.xml"/>
+    <File fileId="1" filename="brickWall_diffuse.dds"/>
+    <File fileId="2" filename="brickWall_normal.dds"/>
+    <File fileId="3" filename="brickWall_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="barrelsPallet_mat" materialId="5">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="barrelsPallet_mat" materialId="142" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="walls.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="walls" nodeId="12">
+      <Shape name="wallPillar5mCorner" shapeId="1" static="true" clipDistance="300" nodeId="13" castsShadows="true" receiveShadows="true" materialIds="142">
+        <Shape name="wall05m" translation="2.5 0 0" shapeId="2" clipDistance="300" nodeId="14" castsShadows="true" receiveShadows="true" materialIds="5"/>
+        <Shape name="wall05m" translation="0 0 2.5" rotation="0 90 0" shapeId="2" clipDistance="300" nodeId="15" castsShadows="true" receiveShadows="true" materialIds="5"/>
+      </Shape>
+      <Shape name="wallPillar10m" shapeId="3" static="true" clipDistance="300" nodeId="16" castsShadows="true" receiveShadows="true" materialIds="5">
+        <Shape name="wall10m" translation="5 0 0" shapeId="4" clipDistance="300" nodeId="17" castsShadows="true" receiveShadows="true" materialIds="5"/>
+      </Shape>
+      <Shape name="pillar" shapeId="3" static="true" clipDistance="300" nodeId="22" castsShadows="true" receiveShadows="true" materialIds="5"/>
+      <Shape name="wallPillar5m" shapeId="1" static="true" clipDistance="300" nodeId="23" castsShadows="true" receiveShadows="true" materialIds="5">
+        <Shape name="wall05m" translation="1.80716 0 0" scale="0.827654 1 1" shapeId="2" clipDistance="300" nodeId="24" castsShadows="true" receiveShadows="true" materialIds="5"/>
+      </Shape>
+      <Shape name="wall05m" translation="-131.69 59.3 -153.411" rotation="0 43.7245 0" scale="0.431738 1 1" shapeId="2" static="true" clipDistance="300" nodeId="28" castsShadows="true" receiveShadows="true" materialIds="5"/>
+      <Shape name="wallPillar20m" shapeId="3" clipDistance="300" nodeId="42" castsShadows="true" receiveShadows="true" materialIds="5">
+        <Shape name="wall20m" translation="4.42784 0 5.14186e-08" rotation="0 180 0" scale="0.834694 1 1" shapeId="5" clipDistance="300" nodeId="43" castsShadows="true" receiveShadows="true" materialIds="5"/>
+        <Shape name="wallPillar" translation="8.30875 0 -2.8926e-07" rotation="0 180 0" shapeId="3" clipDistance="300" nodeId="44" castsShadows="true" receiveShadows="true" materialIds="5"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="sawMill.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="50" filename="$data/fillPlanes/woodChips_diffuse.png"/>
+    <File fileId="51" filename="$data/fillPlanes/woodChips_normal.png"/>
+    <File fileId="30" filename="$data/maps/textures/shared/industrialWindows_diffuse.png"/>
+    <File fileId="31" filename="$data/maps/textures/shared/industrialWindows_normal.png"/>
+    <File fileId="32" filename="$data/maps/textures/shared/industrialWindows_specular.png"/>
+    <File fileId="68" filename="$data/maps/textures/shared/props/boardStackSet_diffuse.png"/>
+    <File fileId="69" filename="$data/maps/textures/shared/props/boardStackSet_normal.png"/>
+    <File fileId="70" filename="$data/maps/textures/shared/props/boardStackSet_specular.png"/>
+    <File fileId="47" filename="$data/maps/textures/shared/props/icicles_diffuse.dds"/>
+    <File fileId="48" filename="$data/maps/textures/shared/props/icicles_normal.dds"/>
+    <File fileId="49" filename="$data/maps/textures/shared/props/icicles_specular.dds"/>
+    <File fileId="43" filename="$data/maps/textures/shared/snow_diffuse.dds"/>
+    <File fileId="44" filename="$data/maps/textures/shared/snow_normal.dds"/>
+    <File fileId="8" filename="$data/maps/textures/shared/snow_specular.png"/>
+    <File fileId="21" filename="$data/placeables/mapEU/carpenter/buildingDecalsGrunge_diffuse.png"/>
+    <File fileId="22" filename="$data/placeables/mapEU/carpenter/buildingDecalsGrunge_normal.png"/>
+    <File fileId="23" filename="$data/placeables/mapEU/carpenter/buildingDecalsGrunge_specular.png"/>
+    <File fileId="17" filename="$data/placeables/mapEU/carpenter/buildingDecalsRust_diffuse.png"/>
+    <File fileId="18" filename="$data/placeables/mapEU/carpenter/buildingDecalsRust_normal.png"/>
+    <File fileId="19" filename="$data/placeables/mapEU/carpenter/buildingDecalsRust_specular.png"/>
+    <File fileId="39" filename="$data/placeables/mapEU/carpenter/emptyRoom_diffuse.png"/>
+    <File fileId="40" filename="$data/placeables/mapEU/carpenter/emptyRoom_normal.png"/>
+    <File fileId="41" filename="$data/placeables/mapEU/carpenter/emptyRoom_specular.png"/>
+    <File fileId="36" filename="$data/placeables/mapEU/carpenter/industrialDoors_diffuse.png"/>
+    <File fileId="37" filename="$data/placeables/mapEU/carpenter/industrialDoors_normal.png"/>
+    <File fileId="38" filename="$data/placeables/mapEU/carpenter/industrialDoors_specular.png"/>
+    <File fileId="33" filename="$data/placeables/mapEU/carpenter/industrialGarageDoors_diffuse.png"/>
+    <File fileId="34" filename="$data/placeables/mapEU/carpenter/industrialGarageDoors_normal.png"/>
+    <File fileId="35" filename="$data/placeables/mapEU/carpenter/industrialGarageDoors_specular.png"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="20" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="42" filename="$data/shaders/glowShader.xml"/>
+    <File fileId="56" filename="$data/shaders/placeableShader.xml"/>
+    <File fileId="45" filename="$data/shaders/snowHeapShader.xml"/>
+    <File fileId="63" filename="$data/shared/assets/assetLibraryDecals_diffuse.png"/>
+    <File fileId="64" filename="$data/shared/assets/assetLibraryDecals_normal.png"/>
+    <File fileId="74" filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight_diffuse.png"/>
+    <File fileId="75" filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight_normal.png"/>
+    <File fileId="76" filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight_specular.png"/>
+    <File fileId="78" filename="$data/shared/default_normal.png"/>
+    <File fileId="77" filename="$data/shared/window02_diffuse.png"/>
+    <File fileId="79" filename="$data/shared/window02_specular.png"/>
+    <File fileId="61" filename="crosscutSystemGlass_diffuse.png"/>
+    <File fileId="62" filename="crosscutSystemGlass_specular.png"/>
+    <File fileId="57" filename="crosscutSystem_diffuse.png"/>
+    <File fileId="60" filename="crosscutSystem_mask.png"/>
+    <File fileId="58" filename="crosscutSystem_normal.png"/>
+    <File fileId="59" filename="crosscutSystem_specular.png"/>
+    <File fileId="71" filename="electricGenerator_diffuse.png"/>
+    <File fileId="72" filename="electricGenerator_normal.png"/>
+    <File fileId="73" filename="electricGenerator_specular.png"/>
+    <File fileId="85" filename="light_emissive.png"/>
+    <File fileId="86" filename="plasticBox_diffuse.png"/>
+    <File fileId="87" filename="plasticBox_normal.png"/>
+    <File fileId="88" filename="plasticBox_specular.png"/>
+    <File fileId="53" filename="sawmillContainer_diffuse.png"/>
+    <File fileId="54" filename="sawmillContainer_normal.png"/>
+    <File fileId="55" filename="sawmillContainer_specular.png"/>
+    <File fileId="11" filename="sawmillGrid_diffuse.png"/>
+    <File fileId="12" filename="sawmillGrid_normal.png"/>
+    <File fileId="13" filename="sawmillGrid_specular.png"/>
+    <File fileId="27" filename="sawmillPlanksClean_diffuse.png"/>
+    <File fileId="28" filename="sawmillPlanksClean_normal.png"/>
+    <File fileId="29" filename="sawmillPlanksClean_specular.png"/>
+    <File fileId="24" filename="sawmillPlanksDark_diffuse.png"/>
+    <File fileId="25" filename="sawmillPlanksDark_normal.png"/>
+    <File fileId="26" filename="sawmillPlanksDark_specular.png"/>
+    <File fileId="1" filename="sawmill_diffuse.dds"/>
+    <File fileId="10" filename="sawmill_height.png"/>
+    <File fileId="5" filename="sawmill_mask.dds"/>
+    <File fileId="2" filename="sawmill_normal.dds"/>
+    <File fileId="3" filename="sawmill_specular.dds"/>
+    <File fileId="83" filename="townLampsAlpha_diffuse.png"/>
+    <File fileId="84" filename="townLampsAlpha_specular.png"/>
+    <File fileId="80" filename="townLamps_diffuse.png"/>
+    <File fileId="81" filename="townLamps_normal.png"/>
+    <File fileId="82" filename="townLamps_specular.png"/>
+    <File fileId="14" filename="woodChips_diffuse.dds"/>
+    <File fileId="15" filename="woodChips_normal.dds"/>
+    <File fileId="16" filename="woodChips_specular.dds"/>
+    <File fileId="65" filename="woodTransportFrame_diffuse.png"/>
+    <File fileId="66" filename="woodTransportFrame_normal.png"/>
+    <File fileId="67" filename="woodTransportFrame_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="assetLibraryDecals_mat" materialId="5" customShaderId="20">
+      <Texture fileId="63"/>
+      <Normalmap fileId="64"/>
+    </Material>
+    <Material name="boardStackSet_mat" materialId="6">
+      <Texture fileId="68"/>
+      <Normalmap fileId="69"/>
+      <Glossmap fileId="70"/>
+    </Material>
+    <Material name="buildingDecalsGrunge_mat" materialId="7" alphaBlending="true" customShaderId="20">
+      <Texture fileId="21"/>
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+    </Material>
+    <Material name="buildingDecalsRust_mat" materialId="8" alphaBlending="true" customShaderId="20">
+      <Texture fileId="17"/>
+      <Normalmap fileId="18"/>
+      <Glossmap fileId="19"/>
+    </Material>
+    <Material name="crosscutSysteGlass_mat" materialId="9">
+      <Texture fileId="61"/>
+      <Glossmap fileId="62"/>
+    </Material>
+    <Material name="crosscutSystem_mat" materialId="10" customShaderId="4">
+      <Texture fileId="57"/>
+      <Normalmap fileId="58"/>
+      <Glossmap fileId="59"/>
+      <Custommap name="mMaskMap" fileId="60"/>
+    </Material>
+    <Material name="electricGeneratror_mat" materialId="11">
+      <Texture fileId="71"/>
+      <Normalmap fileId="72"/>
+      <Glossmap fileId="73"/>
+    </Material>
+    <Material name="emptyRoom_mat" materialId="12" customShaderId="42" customShaderVariation="alphaTestDisable">
+      <Texture fileId="39"/>
+      <Normalmap fileId="40"/>
+      <Glossmap fileId="41"/>
+      <CustomParameter name="lightControl" value="1.5"/>
+    </Material>
+    <Material name="icicles_mat" materialId="13" alphaBlending="true" customShaderId="45" customShaderVariation="icicle">
+      <Texture fileId="47"/>
+      <Normalmap fileId="48"/>
+      <Glossmap fileId="49"/>
+      <Refractionmap coeff="1" bumpScale="0.1" withSSRData="false"/>
+    </Material>
+    <Material name="industrialDoors_mat" materialId="14">
+      <Texture fileId="36"/>
+      <Normalmap fileId="37"/>
+      <Glossmap fileId="38"/>
+    </Material>
+    <Material name="industrialGarageDoors_mat" materialId="15">
+      <Texture fileId="33"/>
+      <Normalmap fileId="34"/>
+      <Glossmap fileId="35"/>
+    </Material>
+    <Material name="industrialWallLight_mat" materialId="16" customShaderId="42">
+      <Texture fileId="74"/>
+      <Normalmap fileId="75"/>
+      <Glossmap fileId="76"/>
+      <CustomParameter name="lightControl" value="1.5"/>
+    </Material>
+    <Material name="industrialWindows_mat" materialId="17" alphaBlending="true">
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
+      <Glossmap fileId="32"/>
+    </Material>
+    <Material name="lambert1" materialId="18" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="plasticBox01_mat" materialId="19">
+      <Texture fileId="86"/>
+      <Normalmap fileId="87"/>
+      <Glossmap fileId="88"/>
+    </Material>
+    <Material name="sawdust_mat" materialId="20">
+      <Texture fileId="50"/>
+      <Normalmap fileId="51"/>
+    </Material>
+    <Material name="sawdust_mat" materialId="21">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+    </Material>
+    <Material name="sawmill_mat" materialId="22" customShaderId="4" customShaderVariation="customParallax">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2" bumpDepth="0.8"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+      <Custommap name="mParallaxMap" fileId="10"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.32 0.1"/>
+    </Material>
+    <Material name="sawmill_mat" materialId="23" customShaderId="4" customShaderVariation="customParallax">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2" bumpDepth="0.8"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+      <Custommap name="mParallaxMap" fileId="10"/>
+      <CustomParameter name="dirtMossSmoothness" value="1 0.1"/>
+      <CustomParameter name="dirtMossTint" value="0.17 0 0.8"/>
+      <CustomParameter name="wetnessScale" value="0.61"/>
+    </Material>
+    <Material name="sawmillContainer_mat" materialId="24" customShaderId="56">
+      <Texture fileId="53"/>
+      <Normalmap fileId="54"/>
+      <Glossmap fileId="55"/>
+    </Material>
+    <Material name="sawmillGrid_mat" materialId="25">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+    </Material>
+    <Material name="sawmillPlanksClean_mat" materialId="26" alphaBlending="true" customShaderId="20">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Glossmap fileId="29"/>
+    </Material>
+    <Material name="sawmillPlanksDark_mat" materialId="27" alphaBlending="true" customShaderId="20">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+      <Glossmap fileId="26"/>
+    </Material>
+    <Material name="snow_mat" materialId="28" customShaderId="45">
+      <Texture fileId="43"/>
+      <Normalmap fileId="44" bumpDepth="0.5"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="townLamps_mat" materialId="29" customShaderId="56">
+      <Texture fileId="80"/>
+      <Normalmap fileId="81"/>
+      <Glossmap fileId="82"/>
+    </Material>
+    <Material name="townLampsAlpha_mat" materialId="30" alphaBlending="true">
+      <Texture fileId="83"/>
+      <Normalmap fileId="78"/>
+      <Glossmap fileId="84"/>
+    </Material>
+    <Material name="townLampsGlow_mat" materialId="31" customShaderId="42" customShaderVariation="customEmissiveMap">
+      <Texture fileId="80"/>
+      <Normalmap fileId="81"/>
+      <Glossmap fileId="82"/>
+      <Custommap name="mEmissiveMap" fileId="85"/>
+      <CustomParameter name="lightControl" value="5"/>
+    </Material>
+    <Material name="window02_mat" materialId="32" alphaBlending="true" customShaderId="42">
+      <Texture fileId="77"/>
+      <Normalmap fileId="78"/>
+      <Glossmap fileId="79"/>
+      <CustomParameter name="lightControl" value="3"/>
+    </Material>
+    <Material name="woodTransportFrame_mat" materialId="33">
+      <Texture fileId="65"/>
+      <Normalmap fileId="66"/>
+      <Glossmap fileId="67"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sawMill.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="sawmill" nodeId="86">
+      <TransformGroup name="sawmill" rotation="-5.71886e-07 0 1.72847e-05" lodDistance="0 160" nodeId="87">
+        <Shape name="LOD0" shapeId="1" clipDistance="175" nodeId="88" castsShadows="true" receiveShadows="true" materialIds="23">
+          <Shape name="sawmillGridAlpha" translation="39.9726 6.41247 -7.40415" rotation="0 -0 -5" shapeId="2" nodeId="89" castsShadows="true" receiveShadows="true" materialIds="25"/>
+          <Shape name="sawmillInterior" shapeId="3" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="200" nodeId="90" castsShadows="true" receiveShadows="true" materialIds="22"/>
+          <Shape name="sawdustPlanes" shapeId="4" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="200" nodeId="91" castsShadows="true" receiveShadows="true" materialIds="21"/>
+          <TransformGroup name="decals" nodeId="92">
+            <Shape name="rustDecals" shapeId="5" clipDistance="150" nodeId="93" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="8"/>
+            <Shape name="grungeDecals" shapeId="6" clipDistance="150" nodeId="94" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="7"/>
+            <Shape name="oldWoodDecals" shapeId="7" clipDistance="150" nodeId="95" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="27"/>
+            <Shape name="newWoodDecals" shapeId="8" clipDistance="150" nodeId="96" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="26"/>
+          </TransformGroup>
+          <TransformGroup name="interior" nodeId="97">
+            <Shape name="industrialWindows02" shapeId="9" clipDistance="175" nodeId="98" castsShadows="true" receiveShadows="true" materialIds="17"/>
+            <Shape name="industrialWindows" shapeId="10" clipDistance="175" nodeId="99" castsShadows="true" receiveShadows="true" materialIds="17"/>
+            <Shape name="garageDoors" shapeId="11" clipDistance="175" nodeId="100" castsShadows="true" receiveShadows="true" materialIds="15"/>
+            <Shape name="industrialDoors" shapeId="12" clipDistance="175" nodeId="101" castsShadows="true" receiveShadows="true" materialIds="14"/>
+          </TransformGroup>
+          <TransformGroup name="illum" nodeId="102">
+            <TransformGroup name="selfillum" nodeId="103">
+              <Shape name="interiorSelfIllum" shapeId="13" clipDistance="175" nodeId="104" castsShadows="true" receiveShadows="true" materialIds="12" weatherRequiredMask="0x40" renderInvisible="true"/>
+            </TransformGroup>
+            <TransformGroup name="realLights" nodeId="105" weatherRequiredMask="0x40">
+              <Light name="pointLight01" translation="30.5262 1.6408 -7.79965" clipDistance="75" nodeId="106" type="point" color="0.06 0.06 0.045" emitDiffuse="true" emitSpecular="true" range="5"/>
+              <Light name="pointLight02" translation="38.0501 1.67975 13.1591" clipDistance="75" nodeId="107" type="point" color="0.06 0.06 0.045" emitDiffuse="true" emitSpecular="true" range="5"/>
+              <Light name="pointLight03" translation="13.611 1.59035 -13.1495" clipDistance="75" nodeId="108" type="point" color="0.06 0.06 0.045" emitDiffuse="true" emitSpecular="true" range="5"/>
+              <Light name="pointLight04" translation="40.0179 1.67975 13.1591" clipDistance="75" nodeId="109" type="point" color="0.06 0.06 0.045" emitDiffuse="true" emitSpecular="true" range="5"/>
+              <Light name="pointLight05" translation="36.0232 1.67975 13.1591" clipDistance="75" nodeId="110" type="point" color="0.06 0.06 0.045" emitDiffuse="true" emitSpecular="true" range="5"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="winter" static="true" nodeId="111" weatherRequiredMask="0x400">
+            <Shape name="snow" shapeId="14" clipDistance="400" nodeId="112" castsShadows="true" receiveShadows="true" materialIds="28"/>
+            <Shape name="icicles" shapeId="15" clipDistance="400" nodeId="113" castsShadows="true" receiveShadows="true" materialIds="13"/>
+          </TransformGroup>
+        </Shape>
+        <Shape name="LOD1" shapeId="16" clipDistance="800" nodeId="114" castsShadows="true" receiveShadows="true" materialIds="22">
+          <Shape name="sawmillGridAlpha_LOD" shapeId="17" clipDistance="300" nodeId="115" castsShadows="true" receiveShadows="true" materialIds="25"/>
+          <Shape name="sawmillInterior_LOD" shapeId="18" clipDistance="800" nodeId="116" castsShadows="true" receiveShadows="true" materialIds="22"/>
+          <Shape name="sawdustPlanes_LOD" shapeId="19" static="true" clipDistance="300" nodeId="117" castsShadows="true" receiveShadows="true" materialIds="20"/>
+          <Shape name="interiorSelfIllum_LOD" shapeId="20" clipDistance="600" nodeId="118" castsShadows="true" receiveShadows="true" materialIds="12" weatherRequiredMask="0x40" renderInvisible="true"/>
+          <Shape name="industrialDoors_LOD" shapeId="21" clipDistance="300" nodeId="119" castsShadows="true" receiveShadows="true" materialIds="14"/>
+          <Shape name="garageDoors" shapeId="22" clipDistance="800" nodeId="120" castsShadows="true" receiveShadows="true" materialIds="15"/>
+          <Shape name="industrialWindows_LOD" shapeId="23" clipDistance="300" nodeId="121" castsShadows="true" receiveShadows="true" materialIds="17"/>
+          <Shape name="industrialWindows02" shapeId="24" clipDistance="300" nodeId="122" castsShadows="true" receiveShadows="true" materialIds="17"/>
+        </Shape>
+        <Shape name="occluderMesh" shapeId="25" clipDistance="300" nodeId="123" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true" materialIds="18"/>
+        <Shape name="collision" shapeId="26" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" clipDistance="600" nodeId="124" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+      </TransformGroup>
+      <TransformGroup name="sawmillProps" nodeId="125">
+        <Shape name="sawmillContainer" translation="-15.3805 -0.131077 -17.4037" shapeId="27" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="300" nodeId="126" castsShadows="true" receiveShadows="true" materialIds="24"/>
+        <Shape name="crosscutSystem" translation="-22.9814 -0.0190887 -13.6275" rotation="0 180 0" shapeId="28" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="300" nodeId="127" castsShadows="true" receiveShadows="true" materialIds="10">
+          <Shape name="crosscutSystemSled" translation="4.06016 4.95911e-07 1.2207e-06" shapeId="29" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="250" nodeId="128" castsShadows="true" receiveShadows="true" materialIds="10">
+            <Shape name="crosscutSystemSledWindows" translation="-6.80059e-05 0 0" shapeId="30" static="true" clipDistance="50" nodeId="129" castsShadows="true" receiveShadows="true" materialIds="9"/>
+            <Shape name="crosscutSystemSledDecals" translation="-0.000305535 0 0" shapeId="31" clipDistance="20" nodeId="130" castsShadows="true" receiveShadows="true" decalLayer="1" materialIds="5"/>
+          </Shape>
+        </Shape>
+        <Shape name="woodTransportFrameRed" translation="-10.1188 -0.0190887 -13.0753" rotation="0 90 0" shapeId="32" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="200" nodeId="131" castsShadows="true" receiveShadows="true" materialIds="33"/>
+        <Shape name="woodTransportFrameBlue" translation="-31.1701 -0.0190887 -13.3603" shapeId="33" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="200" nodeId="132" castsShadows="true" receiveShadows="true" materialIds="33"/>
+        <Shape name="woodTransportFrameRed" translation="-32.9446 -0.0190887 -14.8326" rotation="0 73.2955 0" shapeId="32" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="200" nodeId="133" castsShadows="true" receiveShadows="true" materialIds="33"/>
+        <TransformGroup name="boardStacks" nodeId="134">
+          <Shape name="boardBarStackLarge" lockedgroup="true" translation="-23.1374 0 18.2872" shapeId="34" clipDistance="150" nodeId="135" castsShadows="true" receiveShadows="true" materialIds="6">
+            <Shape name="col" shapeId="35" visibility="false" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="136" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+          </Shape>
+          <Shape name="barStackMedium" lockedgroup="true" translation="-19.997 0 18.2488" shapeId="36" clipDistance="150" nodeId="137" castsShadows="true" receiveShadows="true" materialIds="6">
+            <Shape name="col" translation="-0.00778351 0 1.14601e-06" shapeId="37" visibility="false" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="138" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+          </Shape>
+          <Shape name="boardStackMedium" lockedgroup="true" translation="-19.9416 0.947453 18.2547" shapeId="38" clipDistance="150" nodeId="139" castsShadows="true" receiveShadows="true" materialIds="6">
+            <Shape name="col" translation="-7.62939e-08 0 0.0172101" shapeId="39" visibility="false" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="140" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+          </Shape>
+          <Shape name="barStackMedium" lockedgroup="true" translation="0 0 18.316" shapeId="36" clipDistance="150" nodeId="141" castsShadows="true" receiveShadows="true" materialIds="6">
+            <Shape name="col" translation="-0.00778351 0 1.14601e-06" shapeId="37" visibility="false" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="142" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+          </Shape>
+          <Shape name="boardStackSmall" lockedgroup="true" translation="-4.83621 0 18.1024" shapeId="40" clipDistance="100" nodeId="143" castsShadows="true" receiveShadows="true" materialIds="6">
+            <Shape name="col" shapeId="41" visibility="false" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="144" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+          </Shape>
+        </TransformGroup>
+        <Shape name="electricGenerator" translation="30.5587 0.0626221 -11.7615" shapeId="42" dynamic="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" clipDistance="80" nodeId="145" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18">
+          <Shape name="electricGenerator_vis" shapeId="43" clipDistance="80" nodeId="146" castsShadows="true" receiveShadows="true" materialIds="11"/>
+        </Shape>
+        <Shape name="industrialWallLight" lockedgroup="true" translation="29.9999 4.03255 -11.835" rotation="0 90 0" shapeId="44" clipDistance="150" nodeId="147" castsShadows="true" receiveShadows="true" materialIds="16" weatherRequiredMask="0x40" renderInvisible="true" visibleShaderParameter="1.5">
+          <Shape name="glass" shapeId="45" clipDistance="80" nodeId="148" castsShadows="true" receiveShadows="true" materialIds="32" weatherRequiredMask="0x40" renderInvisible="true" visibleShaderParameter="3"/>
+          <Shape name="col" shapeId="46" visibility="false" static="true" density="0.0001" nodeId="149" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18" weatherPreventMask="0x0"/>
+          <Light name="light" translation="0 -0.015 0.2" nodeId="150" type="point" color="0.4 0.4 0.4" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="1000" shadowExtrusionDistance="200" softShadowsLightSize="0.5" softShadowsLightDistance="15" softShadowsDepthBiasFactor="1" softShadowsMaxPenumbraSize="0.5" range="5" weatherRequiredMask="0x40"/>
+        </Shape>
+        <Shape name="townWallLamp01" lockedgroup="true" translation="41.4879 2.94241 11.0021" rotation="0 180 0" shapeId="47" static="true" clipDistance="200" nodeId="151" castsShadows="true" receiveShadows="true" materialIds="29">
+          <Shape name="townWallLamp01Alpha" shapeId="48" static="true" clipDistance="50" nodeId="152" castsShadows="true" receiveShadows="true" materialIds="30"/>
+          <TransformGroup name="illum" nodeId="153">
+            <Shape name="lamp" shapeId="49" clipDistance="300" nodeId="154" castsShadows="true" receiveShadows="true" materialIds="31" weatherRequiredMask="0x40" renderInvisible="true" visibleShaderParameter="5"/>
+            <Light name="spotLight1" translation="-0.86202 -0.257998 1.03692e-05" rotation="-90 0 0" clipDistance="300" nodeId="155" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" range="10" coneAngle="120" dropOff="4" weatherRequiredMask="0x40"/>
+          </TransformGroup>
+        </Shape>
+        <Shape name="plasticBox" lockedgroup="true" translation="28.4456 0.0626221 18.1172" rotation="0 -10 0" shapeId="50" clipDistance="100" nodeId="156" castsShadows="true" receiveShadows="true" materialIds="19">
+          <Shape name="col" translation="0 1.23286e-05 0" shapeId="51" visibility="false" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="157" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+        </Shape>
+        <Shape name="plasticBox" lockedgroup="true" translation="25.7288 0.0626221 18.105" rotation="0 -10 0" shapeId="50" clipDistance="100" nodeId="158" castsShadows="true" receiveShadows="true" materialIds="19">
+          <Shape name="col" translation="0 1.23286e-05 0" shapeId="51" visibility="false" static="true" collisionFilterGroup="0x3e" collisionFilterMask="0xfffffbff" density="0.0001" nodeId="159" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="18"/>
+        </Shape>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="89">
+      <Attribute name="axis" type="float" value="1"/>
+      <Attribute name="onCreate" type="scriptCallback" value="Rotator.onCreate"/>
+      <Attribute name="speed" type="float" value="0.001"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
